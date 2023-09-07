@@ -1,0 +1,24 @@
+
+.bikes{
+
+  &__title{
+    color: $color-02;
+  }
+
+  &__item {
+    @include theme($theme: #ccc, $bg: #fff);
+    color: $color-02;
+    display: flex;
+    float: left;
+    height: max-content;
+    justify-content: center;
+    align-items: baseline;
+    flex-flow: column;
+
+}
+
+&__button {
+    background-color: $color-04;
+}
+
+}

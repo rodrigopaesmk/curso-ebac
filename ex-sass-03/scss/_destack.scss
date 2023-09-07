@@ -1,0 +1,29 @@
+.destack {
+    background-color: $bg-color;
+    padding: $space-default;
+    &__title {
+        color: $color-04;
+        float: left;
+        font-size: $font-big;
+        margin-top: 0;
+    }
+    &__subtitle {
+        float: left;
+        font-size: $font-small;
+        margin-left: $space-default;
+        margin-top: $mt;
+        color: $color-01;
+    }
+    &__image {
+        width: 100%;
+        height: auto;
+        margin: $space-default auto;
+    }
+    &__description {
+        font-size: $font-normal;
+        color: $color-04;
+        padding: 2rem 0;
+        width: 100%;
+
+    }
+}
